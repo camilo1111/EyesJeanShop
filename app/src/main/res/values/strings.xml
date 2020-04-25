@@ -13,4 +13,31 @@
         <item>Colors</item>
         <item>Category</item>
     </string-array>
+    // end strings activity main
+
+    //Strings activity list product
+
+    <string name="title_list_product">List Products</string>
+
+    <string-array name="examlple_products">
+        <item>Producto 1</item>
+        <item>Producto 2</item>
+        <item>Producto 3</item>
+        <item>Producto 4</item>
+        <item>Producto 5</item>
+        <item>Producto 6</item>
+        <item>Producto 7</item>
+        <item>Producto 8</item>
+        <item>Producto 9</item>
+        <item>Producto 10</item>
+        <item>Producto 11</item>
+        <item>Producto 12</item>
+        <item>Producto 13</item>
+        <item>Producto 14</item>
+        <item>Producto 15</item>
+    </string-array>
+
+
+
+
 </resources>
