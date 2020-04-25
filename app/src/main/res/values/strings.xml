@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Eyes Jean Shop</string>
+    <string name="filters">Filters</string>
+    <string name="options">Options</string>
+    <string name="buttonWS">Waiting Section</string>
+    <string name="buttonFav">Favorites</string>
+    <string name="buttonSH">Shopping History</string>
+
+
+    <string name="text_edit_text">Search</string>
+    <string-array name="itemL_list">
+        <item>All list</item>
+        <item>Colors</item>
+        <item>Category</item>
+    </string-array>
+</resources>
