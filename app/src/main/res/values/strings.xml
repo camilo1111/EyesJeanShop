@@ -19,7 +19,7 @@
 
     <string name="title_list_product">List Products</string>
 
-    <string-array name="examlple_products">
+    <string-array name="example_products">
         <item>Producto 1</item>
         <item>Producto 2</item>
         <item>Producto 3</item>
@@ -55,7 +55,20 @@
     <string name="titleCant">Quantity</string>
     <string name="titlePrice">Price</string>
 
+    // Strings activity Favorities
 
+    <string name="title_favorites_product">Favorites</string>
+
+    <string-array name="example_products_favorites">
+        <item>Producto 1</item>
+        <item>Producto 4</item>
+        <item>Producto 5</item>
+        <item>Producto 6</item>
+        <item>Producto 7</item>
+        <item>Producto 8</item>
+        <item>Producto 9</item>
+        <item>Producto 15</item>
+    </string-array>
 
 
 
