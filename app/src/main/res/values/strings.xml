@@ -70,6 +70,18 @@
         <item>Producto 15</item>
     </string-array>
 
+    // strings activity history
+
+
+    <string name="title_history">Shopping History</string>
+
+    <string-array name="example_Shopping_history">
+        <item>Buy 1</item>
+        <item>Buy 2</item>
+        <item>Buy 3</item>
+        <item>Buy 4</item>
+        <item>Buy 6</item>
+    </string-array>
 
 
 

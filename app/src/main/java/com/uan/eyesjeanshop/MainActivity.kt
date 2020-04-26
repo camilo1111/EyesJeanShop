@@ -17,6 +17,18 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+        buttonSH.setOnClickListener {
+            val continueButton = Intent (this, HistoryActivity::class.java)
+            startActivity(continueButton)
+
+        }
+
+        buttonFav.setOnClickListener {
+            val continueButton = Intent (this, FavoritesActivity::class.java)
+            startActivity(continueButton)
+
+        }
+
         imageButtonSearch.setOnClickListener{
             val continueButton = Intent (this, ListProductActivity::class.java)
             startActivity(continueButton)
