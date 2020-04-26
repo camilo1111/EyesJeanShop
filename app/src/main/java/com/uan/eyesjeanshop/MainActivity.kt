@@ -11,6 +11,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        buttonWs.setOnClickListener {
+            val continueButton = Intent (this, WaitingSectionActivity::class.java)
+            startActivity(continueButton)
+
+        }
+
         imageButtonSearch.setOnClickListener{
             val continueButton = Intent (this, ListProductActivity::class.java)
             startActivity(continueButton)

@@ -48,6 +48,16 @@
     <string name="value">Value$</string>
     <string name="buttonFavorities">Favorities</string>
 
+    //Strings activity section waiting section
+
+    <string name="titleWS">Waiting Section</string>
+    <string name="titleProduct">Product</string>
+    <string name="titleCant">Quantity</string>
+    <string name="titlePrice">Price</string>
+
+
+
+
 
 
 </resources>
