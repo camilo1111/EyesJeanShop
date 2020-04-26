@@ -84,5 +84,11 @@
     </string-array>
 
 
+    // String activity detail buy
+
+    <string name="title_buy_example">Buy 1</string>
+
+
+
 
 </resources>
