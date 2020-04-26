@@ -19,22 +19,22 @@ class ListProductActivity : AppCompatActivity() {
 
                 "Producto 1"-> {val started = Intent(this, DetailProductActivity::class.java)
                     startActivity(started)
-                    finish()}
+                    }
                 "Producto 2"-> {val started = Intent(this, DetailProductActivity::class.java)
                     startActivity(started)
-                    finish()}
+                    }
                 "Producto 3"-> {val started = Intent(this, DetailProductActivity::class.java)
                     startActivity(started)
-                    finish()}
+                   }
                 "Producto 4"-> {val started = Intent(this, DetailProductActivity::class.java)
                     startActivity(started)
-                    finish()}
+                    }
                 "Producto 5"-> {val started = Intent(this, DetailProductActivity::class.java)
                     startActivity(started)
-                    finish()}
+                    }
                 "Producto 6"-> {val started = Intent(this, DetailProductActivity::class.java)
                     startActivity(started)
-                    finish()}
+                   }
             }
         }
 
