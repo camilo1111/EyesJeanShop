@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#BDBDBD"
+    android:background="#00363a"
     tools:context=".DetailProductActivity">
 
 
@@ -13,10 +13,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:background="#607D8B"
+        android:background="#006064"
         android:gravity="center_horizontal"
         android:text="@string/title_detail_product"
-        android:textColor="#000000"
+        android:textColor="#ffffff"
         android:textSize="32sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -28,10 +28,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
-        android:background="#607D8B"
+        android:background="#006064"
         android:text="@string/description"
         android:textSize="32sp"
         android:textStyle="italic|bold"
+
+        android:gravity="center_horizontal"
+        android:textColor="#ffffff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -65,6 +68,7 @@
         android:layout_marginTop="32dp"
         android:text="@string/unit"
         android:textSize="18sp"
+        android:textColor="#ffffff"
         app:layout_constraintStart_toEndOf="@+id/imageViewProduct"
         app:layout_constraintTop_toBottomOf="@+id/textViewTitle" />
 
@@ -83,7 +87,9 @@
         android:id="@+id/buttonCal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#607D8B"
+        android:background="#428e92"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
         android:text="@string/buttonCal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageViewProduct"
@@ -96,6 +102,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="24dp"
         android:text="@string/price"
+        android:textColor="#ffffff"
         android:textSize="18sp"
         app:layout_constraintStart_toEndOf="@+id/imageViewAvailability"
         app:layout_constraintTop_toBottomOf="@+id/buttonCal" />
@@ -107,6 +114,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="24dp"
         android:text="@string/value"
+        android:textColor="#ffffff"
         android:textSize="18sp"
         android:textStyle="italic"
         app:layout_constraintStart_toEndOf="@+id/textViewPrice"
@@ -117,8 +125,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:background="#607D8B"
+        android:background="#428e92"
         android:text="@string/buttonFavorities"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/buttonBuy"
         app:layout_constraintTop_toBottomOf="@+id/textViewValue" />
@@ -128,9 +138,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
         android:layout_marginTop="24dp"
         android:text="@string/buttonBuy"
-        android:background="#00695C"
+        android:background="#428e92"
         app:layout_constraintStart_toEndOf="@+id/imageViewAvailability"
         app:layout_constraintTop_toBottomOf="@+id/textViewValue" />
 

@@ -28,11 +28,7 @@ class DetailProductActivity : AppCompatActivity() {
             startActivity(continueButton)
         }
         buttonCal.setOnClickListener {
-            val numberUser= findViewById<EditText>(R.id.editTextUnit)
-            val number: Int = numberUser.text.toString().toInt()
-
-
-            textViewValue.setText(numberUser.toString())
+            textViewValue.setText("20.000$")
 
         }
     }

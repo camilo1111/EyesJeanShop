@@ -40,7 +40,7 @@
     //String activity detail product
 
     <string name="title_detail_product">Producto 1</string>
-    <string name="description">Description: .....</string>
+    <string name="description">Description</string>
     <string name="unit">Unit:</string>
     <string name="price">Price:</string>
     <string name="buttonCal">Calculate</string>
